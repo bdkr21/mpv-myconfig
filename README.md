@@ -25,3 +25,18 @@ The following are the default keybinds, they can be changed in the conf file of 
 | `ctrl+alt+c` / `ctrl+alt+C` / `meta+alt+c` / `meta+alt+C`                        | copy-specific           | copies the file path without the reached time or based on the configured specific copy behavior.  |
 | `ctrl+alt+v` / `ctrl+alt+V` / `meta+alt+v` / `meta+alt+V`                            | paste-specific                        | pastes and appends the video file into playlist or based on the configured specific paste behavior.                                                                             |
 | `c` / `C`                            | open-list                               | opens Clipboard list [(LogManager)](https://github.com/Eisa01/mpv-scripts#logmanager)                                               |
+### Main Features
+- **Copy and Paste:** Adds copy and paste to mpv for any file, like (urls, torrents, images, subtitles, audio files, video paths)
+- **Multi-Paste:** Capability to paste a list of supported items seperated by new line to generate a playlist and conduct different actions depending on the files pasted.
+- **youtube-dl Extension Support:** Immediately paste links without finding exact video address for youtube and any other youtube-dl extension supported sites.
+- **Peerflix / WebTorrent Extension Support:** Immediately paste torrent links or magnet links when proper extensions are installed.
+- **Saves Clipboard to a Log File:** The copies from mpv, and the pastes into mpv will be kept in a log file; log file location is mpv config directory, default for Windows OS: `%APPDATA%\mpv\mpvClipboard.log`, for Linux OS and MAC OS: `~\.config\mpv\mpvClipboard.log`.
+- **[LogManager:](https://github.com/Eisa01/mpv-scripts#logmanager)** Reads the log file directly in mpv, giving access to navigate, play files, add to playlist, delete, search, and filter the content.
+- **Customization:** Tons of user customizable settings that can even change the behavior and priority of copy and paste actions, as well as everything about LogManager.
+- **OSD:** Displays any SmartCopyPaste_II action within mpv.
+- **More:** This is not all! Explore the conf file to learn more about the possibilities you are missing out...
+### Compatibility
+- Windows OS (default powershell, customizable / can be changed in the settings inside the script).
+- MAC OS (default pbcopy and pbpaste, customizable / can be changed in the settings inside the script).
+- Linux OS (default xclip, customizable / can be changed in the settings inside the script).
+</details>
