@@ -4,6 +4,8 @@ This repository contain scripts I have made for [mpv media player](https://githu
 
 To add scripts from this repository, download the desired script in your `mpv/scripts/` directory, for user customizable settings download the related conf file in your `mpv/script-opts/` directory.
 
+----
+## User scripts
 
 * [SmartCopyPaste_II Script 3.1](https://github.com/Eisa01/mpv-scripts#smartcopypaste_ii)
 * [UndoRedo Script 2.2](https://github.com/Eisa01/mpv-scripts#undoredo)
