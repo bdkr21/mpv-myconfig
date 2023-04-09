@@ -1,6 +1,6 @@
-# Just some config and Script i Mostly used for MPV PLAYER
+# My personal mpv config and user scripts. ㅋㅋㅋㅋ
 
-This repository contain scripts I have made for [mpv media player](https://github.com/mpv-player/mpv/).
+This repository contain scripts I have made for [mpv media player](https://github.com/mpv-player/mpv/), This is mainly just for backup and keeping track of changes.
 To add scripts from this repository, download the desired script in your `mpv/scripts/` directory, for user customizable settings download the related conf file in your `mpv/script-opts/` directory.
 
 
@@ -188,7 +188,6 @@ This could also be helpful for saving long streams on slow systems. On some slow
 This feature also requires `autostart=yes`. Since this is based on start and stop cycles of continuous writing rather than dumping the loaded cache at regular intervals it is not necessary to have a large cache size.
 
 </details>
-----
 
 ## References
 
