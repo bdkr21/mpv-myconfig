@@ -187,7 +187,7 @@ This could also be helpful for saving long streams on slow systems. On some slow
 
 This feature also requires `autostart=yes`. Since this is based on start and stop cycles of continuous writing rather than dumping the loaded cache at regular intervals it is not necessary to have a large cache size.
 
-
+</details>
 ----
 
 ## References
