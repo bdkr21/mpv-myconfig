@@ -12,7 +12,7 @@ To add scripts from this repository, download the desired script in your `mpv/sc
 * [streamsave.lua](https://github.com/Sagnac/streamsave)
 * [Encode](https://github.com/occivink/mpv-scripts#encodelua)
 * [thumbfast](https://github.com/po5/thumbfast)
-* [mpv-modern-x-compact](https://github.com/1-minute-to-midnight/mpv-modern-x-compact)
+* [Awesome-OSC](https://github.com/Qiyue0726/awesome-osc)
 
 ## How to use streamsave
 <details>
