@@ -4,13 +4,18 @@ This repository contain scripts I have made for [mpv media player](https://githu
 To add scripts from this repository, download the desired script in your `mpv/scripts/` directory, for user customizable settings download the related conf file in your `mpv/script-opts/` directory.
 
 
-* [SmartCopyPaste_II Script 3.1](https://github.com/Eisa01/mpv-scripts#smartcopypaste_ii),
-* [UndoRedo Script 2.2](https://github.com/Eisa01/mpv-scripts#undoredo),
-* [streamsave.lua](https://github.com/Sagnac/streamsave),
-* [Encode](https://github.com/occivink/mpv-scripts#encodelua),
-* [thumbfast](https://github.com/po5/thumbfast),
+* [SmartCopyPaste_II Script 3.1](https://github.com/Eisa01/mpv-scripts#smartcopypaste_ii)
+* [UndoRedo Script 2.2](https://github.com/Eisa01/mpv-scripts#undoredo)
+* [streamsave.lua](https://github.com/Sagnac/streamsave)
+* [Encode](https://github.com/occivink/mpv-scripts#encodelua)
+* [thumbfast](https://github.com/po5/thumbfast)
 * [mpv-modern-x-compact](https://github.com/1-minute-to-midnight/mpv-modern-x-compact)
 
+## Difference between upstream ModernX
+<details>
+<summary>Expand</summary>
+
+### How to use mpv for streaming, streaming+record
 ## [streamsave.lua](https://raw.githubusercontent.com/Sagnac/streamsave/master/streamsave.lua "streamsave.lua")
 
 [mpv](https://github.com/mpv-player/mpv "mpv") script aimed at saving live streams and clipping online videos without encoding.
@@ -43,7 +48,13 @@ Default keybinds:
 
 `Ctrl+x` stops continuous dumping
 
+</details>
+
 ----
 
+## References
+
+- [mpv Wiki](https://github.com/mpv-player/mpv/wiki)
+- [mpv Manual](https://mpv.io/manual/master)
 
 
