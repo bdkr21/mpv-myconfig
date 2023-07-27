@@ -7,7 +7,6 @@ To add scripts from this repository, download the desired script in your `mpv/sc
 ----
 ## User scripts
 
-* [SmartCopyPaste_II Script 3.1](https://github.com/Eisa01/mpv-scripts#smartcopypaste_ii)
 * [UndoRedo Script 2.2](https://github.com/Eisa01/mpv-scripts#undoredo)
 * [streamsave.lua](https://github.com/Sagnac/streamsave)
 * [Encode](https://github.com/occivink/mpv-scripts#encodelua)
