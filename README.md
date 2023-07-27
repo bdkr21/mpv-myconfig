@@ -6,7 +6,7 @@ To add scripts from this repository, download the desired script in your `mpv/sc
 
 ----
 ## User scripts
-
+* [mpv-copyTime](https://github.com/Arieleg/mpv-copyTime/tree/master)
 * [UndoRedo Script 2.2](https://github.com/Eisa01/mpv-scripts#undoredo)
 * [streamsave.lua](https://github.com/Sagnac/streamsave)
 * [Encode](https://github.com/occivink/mpv-scripts#encodelua)
