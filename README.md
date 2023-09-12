@@ -12,6 +12,14 @@ To add scripts from this repository, download the desired script in your `mpv/sc
 * [Encode](https://github.com/occivink/mpv-scripts#encodelua)
 * [thumbfast](https://github.com/po5/thumbfast)
 * [Awesome-OSC](https://github.com/Qiyue0726/awesome-osc)
+* [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)
+* [blur-edges](https://github.com/occivink/mpv-scripts)
+* [modernx](https://github.com/cyl0/ModernX)
+* [seek-to](https://github.com/occivink/mpv-scripts#seek-tolua)
+* [crop](https://github.com/occivink/mpv-scripts#croplua)
+* [quick-scale](https://github.com/VideoPlayerCode/mpv-tools/)
+* [reload](https://github.com/4e6/mpv-reload)
+* [use-cpu](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/use-cpu.lua)
 
 ## How to use streamsave
 <details>
