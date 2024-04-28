@@ -75,4 +75,4 @@ if platform == UNIX then
     clipboard_cmd = get_clipboard_cmd()
 end
 
-mp.add_key_binding("Ctrl+c", "copyTime", copyTime)
+mp.add_key_binding("Shift+x", "copyTime", copyTime)
