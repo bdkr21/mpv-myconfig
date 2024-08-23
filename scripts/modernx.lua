@@ -64,7 +64,7 @@ local user_opts = {
     chapters_osd = true,                -- whether to show chapters OSD on next/prev
     playlist_osd = true,                -- whether to show playlist OSD on next/prev
     chapter_fmt = "Chapter: %s",        -- chapter print format for seekbar-hover. "no" to disable
-    showtitle = true,                   -- show title in OSC
+    showtitle = false,                   -- show title in OSC
     showonpause = true,                 -- show OSC on pause
     showonstart = true,                 -- show OSC on startup or when the next file in
                                         -- playlist starts playing
@@ -72,9 +72,9 @@ local user_opts = {
     movesub = true,                     -- move subtitles when the OSC is visible
     titlefont = "",                     -- font used for the title above OSC and
                                         -- in the window controls bar
-    blur_intensity = 150,               -- adjust the strength of the OSC blur
+    blur_intensity = 50,               -- adjust the strength of the OSC blur
     osc_color = "000000",               -- accent of the OSC and the title bar
-    seekbarfg_color = "E39C42",         -- color of the seekbar progress and handle
+    seekbarfg_color = "FFAF00",         -- color of the seekbar progress and handle
     seekbarbg_color = "FFFFFF",         -- color of the remaining seekbar
 }
 
@@ -540,7 +540,7 @@ local osc_param = { -- calculated by osc_init()
 }
 
 local osc_styles = {
-    transBg = "{\\blur100\\bord" .. user_opts.blur_intensity .. "\\1c&H000000&\\3c&H" .. user_opts.osc_color .. "&}",
+    transBg = "{\\blur80\\bord" .. user_opts.blur_intensity .. "\\1c&H000000&\\3c&H" .. user_opts.osc_color .. "&}",
     seekbarBg = "{\\blur0\\bord0\\1c&H" .. user_opts.seekbarbg_color .. "&}",
     seekbarFg = "{\\blur1\\bord1\\1c&H" .. user_opts.seekbarfg_color .. "&}",
 
@@ -1988,11 +1988,11 @@ function osc_init()
     ne.softrepeat = true
     ne.content = osc_icons.skipforward
     ne.eventresponder["mbtn_left_down"] =
-        function () mp.commandv("seek", 10, "relative", "keyframes") end
+        function () mp.commandv("seek", 5, "relative", "keyframes") end
     ne.eventresponder["shift+mbtn_left_down"] =
         function () mp.commandv("frame-step") end
     ne.eventresponder["mbtn_right_down"] =
-        function () mp.commandv("seek", 60, "relative", "keyframes") end
+        function () mp.commandv("seek", 15, "relative", "keyframes") end
 
     -- ch_prev
     ne = new_element("ch_prev", "button")
