@@ -64,7 +64,7 @@ local user_opts = {
     chapters_osd = true,                -- whether to show chapters OSD on next/prev
     playlist_osd = true,                -- whether to show playlist OSD on next/prev
     chapter_fmt = "Chapter: %s",        -- chapter print format for seekbar-hover. "no" to disable
-    showtitle = false,                   -- show title in OSC
+    showtitle = true,                   -- show title in OSC
     showonpause = true,                 -- show OSC on pause
     showonstart = true,                 -- show OSC on startup or when the next file in
                                         -- playlist starts playing
@@ -1976,11 +1976,11 @@ function osc_init()
     ne.softrepeat = true
     ne.content = osc_icons.skipback
     ne.eventresponder["mbtn_left_down"] =
-        function () mp.commandv("seek", -5, "relative", "keyframes") end
+        function () mp.commandv("seek", -3, "relative", "keyframes") end
     ne.eventresponder["shift+mbtn_left_down"] =
         function () mp.commandv("frame-back-step") end
     ne.eventresponder["mbtn_right_down"] =
-        function () mp.commandv("seek", -30, "relative", "keyframes") end
+        function () mp.commandv("seek", -5, "relative", "keyframes") end
 
     -- skipfrwd
     ne = new_element("skipfrwd", "button")
@@ -1988,11 +1988,11 @@ function osc_init()
     ne.softrepeat = true
     ne.content = osc_icons.skipforward
     ne.eventresponder["mbtn_left_down"] =
-        function () mp.commandv("seek", 5, "relative", "keyframes") end
+        function () mp.commandv("seek", 3, "relative", "keyframes") end
     ne.eventresponder["shift+mbtn_left_down"] =
         function () mp.commandv("frame-step") end
     ne.eventresponder["mbtn_right_down"] =
-        function () mp.commandv("seek", 15, "relative", "keyframes") end
+        function () mp.commandv("seek", 5, "relative", "keyframes") end
 
     -- ch_prev
     ne = new_element("ch_prev", "button")
